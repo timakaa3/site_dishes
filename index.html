@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css" />
+</head>
+
+<body>
+    <main>
+        <div id="box">
+            <h1 id="header">
+                Десерти
+            </h1>
+        </div>
+        <header>
+            <div class="big_box">
+                <img src="https://img.haskovo.net/uploads/recipes/2015/04/02/9751.jpg" alt="десерт"
+                    width="450" class="img">
+                <div class="boxx">
+                    <h3 class="text">
+                        Реване
+                    </h3>
+                    <h4 class="facts">
+                     Реванѐто е традиционен десерт от Близкия Изток. Произхожда от Египет и обикновено се приготвя от грис/брашно и е подсладено със сироп,
+                      портокалова цветна вода или розова вода.Среща се в повечето бивши райони на Османската империя и се представя в кухните на Близкия Изток, 
+                      Гърция, Азербайджан, Турция и много други. 
+
+                    </h4>
+                </div>
+
+                <div class="recepy">
+                    <button class="show_btn" onclick="moreinfo('recepy_text')">Show Ingredients</button>
+                    <ul id="recepy_text" style="display: none;">
+                        <li>яйца - 5 бр</li>
+                        <li>захар - 0.5 ч.ч.
+                        </li>
+                        <li>ванилия - 1 прахче
+                        </li>
+                        <li>олио - 0.5 ч.ч.</li>
+                        <li>брашно - 2/3 ч.ч.</li>
+                        <li>бакпулвер - 5 г</li>
+                        <li>лимонов сок - 1 с.л.</li>
+                        <p> Сиропа</p>
+                        <li>вода - 2.5 ч.ч.</li>
+                        <li>захар - 2.5 ч.ч.</li>
+                        <li>имонова кора - на 1 бр.</li>
+                    </ul>
+                    <button class="show_btn" onclick="moreinfo('about')">Show Steps</button>
+                    <ol id="about" style="display: none;">
+                        <li class="how_to">Първата стъпка от лесна рецепта за реване е приготвянето на блата за сладкиша. Яйцата трябва да са на стайна температура.
+                            Разбивате добре яйцата със захарта с помощта на миксер или тел за разбиване, добавяте ванилията и малко по малко при разбиване на ниска
+                             степен на миксера, добавяте пресятото брашно, заедно със содата за хляб. Намазвате тава с диаметър около 28 см с много малко количество 
+                             мазнина, след което изсипвате сместа и печете в предварително загрята на 170 градуса фурна без вентилатор за около 30 минути, или докато 
+                             придобие лек златист цвят. Имайте предвид, че тавата трябва да е с високи стени,
+                            за да може впоследствие да залеете със сиропа и да има достатъчно място</li>
+                        <li class="how_to">Приготвяте сиропа за реване, като към врящата вода, добавяте предвиденото количество захар и сока от лимона. 
+                           При заливането на реването трябва да следвате правилото горещ сироп върху изстинал сладкиш, така сладкишът ще поеме захарния сироп и ще остане пухкав. Затова и заливате блата за реване с горещ сироп, след като блатът е изстинал. Преди сервиране по желание може да поръсите с кокосови стърготини.
+                        </li>
+                        
+                    </ol>
+                </div>
+            </div>
+
+            <div class="big_box">
+                <img src="data:image/jpeg;base64,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
+                ARG2jUtlnyObtCWMMkVaoozsiTI6KjgHJRZqLdowg5KK3bfb+uCbbrG5iHFyqy8+e5dvX+hD/9k=" alt="десерт" width="450"
+                    class="img">
+                <div class="boxx">
+                    <h3 class="text">
+                       Крем Карамел
+                    </h3>
+                    <h4 class="facts">
+                     Крем карамел, също флан или карамелен пудинг, е десерт от яйчен крем със слой от мек карамел, за разлика от крем брюле, 
+                     който е пудинг с твърд карамелен слой.
+                      Разпространен е из цял свят и се приготвя в повечето европейски ресторанти.
+                    </h4>
+                </div>
+
+                <p>
+                <div class="recepy">
+                    <button class="show_btn" onclick="moreinfo('shkembe_recepy')">Show Ingredients</button>
+                    <ul id="shkembe_recepy" style="display: none;">
+                        <li>прясно мляко - 1 л</li>
+                        <li>захар - 1 ч.ч. за крема
+                        </li>
+                        <li>яйца - 6 броя, </li>
+                        <li>ванилия - 1 пакетче</li>
+                        <li>захар - 1/2 ч.ч., за карамелизирането</li>
+                       
+                    </ul>
+                    <button class="show_btn" onclick="moreinfo('shkembe_about')">Show Steps</button>
+                    <ol id="shkembe_about" style="display: none;">
+                        <li class="how_to">Извадете яйцата и прясното мляко от хладилника предварително, за да постоят известно време на стайна температура. 
+                           Разбивате добре яйцата със захарта, след което добавяте и прясното и мляко и 
+                           отново разбивате до пълно разтопяване на захарта.</li>
+
+                        <li class="how_to">Отделно в малка тенджера приготвяте карамела за крем карамела. Слагате тенджерата, в
+                            коятао сте смесили захарта, водата и лимоновия сок, да заври на котлона, като междувременно бъркате 
+                            непрекъснато. Бъркате карамелената смес докато придобие златист цвят, след което го сваляте от огъня и го 
+                           разпределяте в купичките с помощта на лъжица. Пълните купичките с яйчената смес..</li>
+
+                        <li class="how_to">И тук идва моментът, който плаши всеки начинаещ кулинар – печенето!
+                            Печете крем карамелът на водна баня в предварително загрята на 150 градуса фурна.
+                             Печене на водна баня означава да поставите купичките в съд пълен с вода и така да го
+                              поставите във фурната. Важно е водата да бъде до ръба на купичките, т.е. дотам, докъдето са
+                               пълни купичките със смес. Трябва да следите процеса на печене на крем карамела отблизо, защото е
+                                много важно водата да не завира. Ако водата ври по време на печенето, вашият крем карамел ще
+                                 стане на шупли.В случай, че водата започне да завира допълнете със студена вода и намалете 
+                                 малко градусите на фурната. След около час крем карамелът трябва да е придобил апетитна коричка и да е готов.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            </p>
+    </main>
+    <script>
+        function moreinfo(idName) {
+            let x = document.getElementById(idName);
+            if (x.style.display === "none") {
+               x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
