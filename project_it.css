@@ -5,7 +5,7 @@ main{
    
 }
 body{
-    background-color: rgb(236, 232, 171);
+    background-color: #fbefce;
     border: 2pt solid rgb(0, 0, 0) ;
 }
 #box{
@@ -13,9 +13,10 @@ body{
     padding-left: 10pt;
     padding-right: 10pt;
     margin-top: 18pt;
-    background-color: #d06464;
+    background-color: #262e4d;
     
 }
+
 #header{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -26,11 +27,11 @@ body{
     margin : 20pt;
     border: 0.99pt solid ;
     text-align: center;
-    background-color: rgb(255, 207, 119);
+    background-color: rgb(242, 243, 234);
 }
 .boxx{
     width: 300;
-    background-color: rgb(255, 207, 119);
+    background-color: rgb(242, 243, 234);
 }
 .img{
     margin-top: 28pt;
@@ -41,15 +42,15 @@ body{
     text-align: center;
     margin-left: 15pt;
     margin-right: 15pt;
-   background-color:  rgb(253, 225, 183);
+   background-color:  rgb(242, 243, 234);
 }
 .how_to{
     margin-bottom: 15pt;
 }
 .recepy{
 
-     border: 0.99pt solid ;
-     background-color: rgb(232, 244, 254);
+   
+     background-color: rgb(242, 243, 234);
 }
 #about,
 #shkembe_about
@@ -66,7 +67,7 @@ body{
     list-style: none;
 }
 .show_btn{
-    background-color: #4CAF50;
+    background-color: #16295a;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
             border: none;
